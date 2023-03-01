@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Para grafico de menu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="estilo.css">
+    </link>
+    <title>CV-PIEDRABUENA DIEGO</title>
+</head>
+
+<body>
+    <script src="scripts.js"></script>
+    <!--MENU-->
+    <div class="menu-contenedor">
+        <header>
+            <div class="logo">
+                <a href="#">DIEGO</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INCIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-navegador" onclick="mostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--INCIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-gral">
+            <div class="Img-Personal">
+                <img src="img/DIEGO.png" alt="Img-Personal">
+            </div>
+            <h1>DIEGO PIEDRABUENA</h1>
+            <h2>Ingeniero civil</h2>
+            <h3>Especialidad diseño y cálculo de estructuras</h3>
+            <div class="redes">
+                <a href="https://twitter.com/piedrabuenad"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/piedrabuenad_/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/diego-piedrabuena-46592480/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="about-contenido">
+            <h2><strong>SOBRE MI</strong></h2>
+            <p> Hola, Soy Diego Piedrabuena Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque maxime sapiente labore delectus dignissimos debitis aperiam voluptate, reiciendis esse, ipsam nulla omnis temporibus nihil distinctio hic similique voluptatem repellendus.</p>
+            <h3> DATOS PERSONALES</h3>
+            <div class="fila">
+                <div class="col">
+                    
+                    <ul>
+                        <li>
+                            <strong>Fecha naciemiento:</strong>
+                            31/08/91
+                        </li>
+                        <li>
+                            <strong>Edad:</strong>
+                            30 años
+                        </li>
+                        <li>
+                            <strong>Lugar de nacimiento:</strong>
+                            Rosario, Santa fe, Argentina
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <strong>DNI:</strong>
+                            11.111.111
+                        </li>
+                        <li>
+                            <strong>Telefono:</strong>
+                            +54 341 xx xx xx
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            Piedrabuenad@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CV-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-cv">
+            <h2><strong>CURRICULUM</strong></h2>
+            <div class="fila">
+                <div class="col izq">
+                    <h3>EDUCACIÓN</h3>
+                        <div class="item-izq">
+                            <h4>Ing. Civil</h4>
+                            <span>Universidad Católica de Córdoba</span>
+                            <span>2010-2016</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
+                        </div>
+                        <div class="item-izq">
+                            <h4>Bachiller en economía</h4>
+                            <span>Colegio La Salle</span>
+                            <span>1997-2009</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
+                        </div>
+                </div>
+                <div class="col der">
+                    <h3>EXPERIENCIA</h3>
+                        <div class="item-der">
+                            <h4>Ing. Civil Of. Técnica</h4>
+                            <span>Alubry San Luis</span>
+                            <span>2021-PRESENTE</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
+                        </div>
+                        <div class="item-der">
+                            <h4>Ing. Civil Of. Técnica</h4>
+                            <span>MyT Consultora</span>
+                            <span>2016-2021</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+        <h2>CONTACTO</h2>
+        <div class="" contacto-contenido>
+            <div class="fila">
+                 <p>
+                    <input id="nombre" type="text" placeholder="Tu nombre">
+                </p>
+                <p>
+                    <input id="tel" type="text" placeholder="Número telefónico">
+                </p>
+                <p>
+                    <input id="mail" type="text" placeholder="E-mail">
+                </p>
+                <p>
+                    <input id="asunto" type="text" placeholder="Asunto">
+                </p>
+                <p>
+                    <textarea id="mensaje" name="" id="" cols="30" rows="10" placeholder="Consulta"></textarea>
+                </p>
+                <p>
+                    <button>Enviar mensaje </button>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

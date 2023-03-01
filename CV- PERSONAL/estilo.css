@@ -1,0 +1,275 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+/*ESTILO MENU*/
+.menu-contenedor {
+    background: #204fa1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.menu-contenedor header {
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.menu-contenedor header .logo a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #FAB464;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu-contenedor header ul {
+    display: flex;
+    list-style: none;
+}
+.menu-contenedor header nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-align: none;
+    color: #E5E7E9;
+    margin: 0px 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/*CAMBIO COLOR SOBRE MENU*/
+.menu-contenedor header nav ul li a:hover {
+    color: #FAB464;
+}
+.nav-navegador {
+    background-color: #FAB464;
+    color: E5E7E9e;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+/*ESTILO INICIO*/
+.inicio {
+    background-color: #142451;
+    width: 100%;
+    height: 60vh;
+    top: 0;
+    left: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.inicio .contenido-gral{
+    padding: 25px;
+    background-color: #E5E7E9;
+    max-width:250px;
+    margin:auto;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+.inicio .contenido-gral img{
+    border: 7px solid #142451;
+    margin:auto;
+    display: block;
+    border-radius: 90%;
+}
+.inicio .contenido-gral h1{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #142451;
+    font-weight: 800;
+}
+.inicio .contenido-gral h2{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+}
+.inicio .contenido-gral h3{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: grey;
+    font-weight: 800;
+}
+.inicio .contenido-gral .redes a{
+    text-decoration: none;
+    color: #142451;
+    margin: 5px; 
+}
+
+.inicio .contenido-gral .redes a:hover{
+    color: #FAB464;
+}
+
+.sobremi{
+    background-color: #204fa1;
+    color: white;
+    padding:10px 10px;
+}
+.sobremi .about-contenido{
+    max-width: 1500px;
+    margin: auto;
+}
+.sobremi .about-contenido h2{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.sobremi .about-contenido p{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+.sobremi .about-contenido h3{
+    margin: 1px;
+    padding: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+.sobremi .about-contenido li{
+    margin: 5px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    list-style: none;
+}
+.sobremi .fila{
+    display: flex;
+}
+
+.curriculum{
+    background-color: #142451;
+    color: white;
+    padding:10px 10px;
+ }
+ .curriculum .contenido-cv{
+    max-width: 1500px;
+    margin: auto;
+}
+.curriculum .fila{
+    display: flex;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 15px;
+}
+.curriculum .contenido-cv h2{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.curriculum .contenido-cv h3{
+    margin: 1px;
+    padding: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+.curriculum .contenido-cv h4{
+    margin: 1px;
+    padding: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:#FAB464;
+    font-weight: 500;
+}
+.curriculum .contenido-cv p{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+.curriculum .contenido-cv span{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color:#FAB464;
+    font-weight: 500;
+}
+
+.curriculum .fila .izq{
+    border-right: 1px solid #FAB464;
+}
+.curriculum .fila .der{
+    border-left: 1px solid #FAB464;
+}
+.contacto{
+    background-color: #204fa1;
+    color: white;
+    padding:10px 10px;
+ }
+ .contacto .contacto-contenido{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.contacto h2{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+
+@media screen and (max-width:700px){
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+}
