@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Para grafico de menu-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CSS-->
     <link rel="stylesheet" href="estilo.css">
     </link>
@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <script src="scripts.js"></script>
+    
     <!--MENU-->
-    <div class="menu-contenedor">
+    <div class="menu-section">
         <header>
             <div class="logo">
                 <a href="#">DIEGO</a>
@@ -28,105 +28,133 @@
                     <li><a href="#inicio" onclick="seleccionar()">INCIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-navegador" onclick="mostrarOcultarMenu">
+            <div class="nav-responsive"onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
     </div>
     <!--INCIO-->
     <section id="inicio" class="inicio">
-        <div class="contenido-gral">
-            <div class="Img-Personal">
-                <img src="img/DIEGO.png" alt="Img-Personal">
-            </div>
-            <h1>DIEGO PIEDRABUENA</h1>
-            <h2>Ingeniero civil</h2>
-            <h3>Especialidad diseño y cálculo de estructuras</h3>
-            <div class="redes">
-                <a href="https://twitter.com/piedrabuenad"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/piedrabuenad_/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/diego-piedrabuena-46592480/"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="incio-section">
+            <div class="card-personal">
+                <div class="img-card">
+                    <img src="img/DIEGO.png" alt="Img-Personal">
+                </div>
+                <div class="info-card">
+                    <div class="resumen">
+                        <h1>DIEGO PIEDRABUENA</h1>
+                        <h2>Ingeniero civil</h2>
+                        <h3>Especialidad diseño y cálculo de estructuras</h3>
+                    </div>
+                    <div class="redes">
+                        <a href="https://twitter.com/piedrabuenad"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/piedrabuenad_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/diego-piedrabuena-46592480/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
     </section>
     <!--SOBRE MI-->
     <section id="sobremi" class="sobremi">
-        <div class="about-contenido">
+        <div class="sobremi-section">
             <h2><strong>SOBRE MI</strong></h2>
-            <p> Hola, Soy Diego Piedrabuena Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque maxime sapiente labore delectus dignissimos debitis aperiam voluptate, reiciendis esse, ipsam nulla omnis temporibus nihil distinctio hic similique voluptatem repellendus.</p>
-            <h3> DATOS PERSONALES</h3>
+            <p> Hola, <strong> Diego Piedrabuena </strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque maxime sapiente labore delectus dignissimos debitis aperiam voluptate, reiciendis esse, ipsam nulla omnis temporibus nihil distinctio hic similique voluptatem repellendus.</p>
             <div class="fila">
                 <div class="col">
-                    
-                    <ul>
-                        <li>
-                            <strong>Fecha naciemiento:</strong>
-                            31/08/91
-                        </li>
-                        <li>
-                            <strong>Edad:</strong>
-                            30 años
-                        </li>
-                        <li>
-                            <strong>Lugar de nacimiento:</strong>
-                            Rosario, Santa fe, Argentina
-                        </li>
-                    </ul>
+                    <h3> DATOS PERSONALES</h3>
+                    <div class="intereses">
+                        <div class="intereses-card">
+                            <h4>Fecha naciemiento:</h4>
+                            <h4>31/08/91</h4>
+                        </div>
+                        <div class="intereses-card">
+                            <h4>Edad:</h4>
+                            <h4>30 años</h4>
+                        </div> 
+                        <div class="intereses-card">
+                                <h4>Lugar de nacimiento:</h4>
+                                <h4>Rosario, Santa fe, Argentina</h4>
+                        </div> 
+                        <div class="intereses-card">
+                                <h4>DNI:</h4>
+                                <h4>11.111.111</h4>
+                        </div> 
+                        <div class="intereses-card">
+                                <h4>Telefono:</h4>
+                                <h4>+54 341 xx xx xx</h4>
+                        </div> 
+                        <div class="intereses-card">
+                                <h4>Email:</h4>
+                                <h4>Piedrabuenad@gmail.com</h4>
+                        </div>        
+                    </div>
                 </div>
                 <div class="col">
-                    <ul>
-                        <li>
-                            <strong>DNI:</strong>
-                            11.111.111
-                        </li>
-                        <li>
-                            <strong>Telefono:</strong>
-                            +54 341 xx xx xx
-                        </li>
-                        <li>
-                            <strong>Email:</strong>
-                            Piedrabuenad@gmail.com
-                        </li>
-                    </ul>
+                    <h3> INTERESES PERSONALES</h3>
+                    <div class="intereses">
+                        <div class="intereses-card">
+                            <h4><i class="fa-solid fa-tree"></i></h4>
+                            <h4><strong>BONSAI</strong></h4>
+                        </div>
+                        <div class="intereses-card">
+                            <h4><i class="fa-solid fa-plane"></i></h4>
+                            <h4><strong>VIAJAR</strong></h4>
+                        </div>
+                        <div class="intereses-card">
+                            <h4><i class="fa-solid fa-gamepad"></i></h4>
+                            <h4><strong>JUEGOS</strong></h4>
+                        </div>
+                        <div class="intereses-card">
+                            <h4><i class="fa-solid fa-code"></i></h4>
+                            <h4><strong>PROGRAMAR</strong></h4>
+                        </div>
+                        <div class="intereses-card">
+                            <h4><i class="fa-solid fa-book"></i></h4>
+                            <h4><strong>LIBROS</strong></h4>
+                        </div>
+                        <div class="intereses-card">
+                            <h4><i class="fa-solid fa-music"></i></h4>
+                            <h4><strong>MUSICA</strong></h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--CV-->
     <section id="curriculum" class="curriculum">
-        <div class="contenido-cv">
+        <div class="cv-section">
             <h2><strong>CURRICULUM</strong></h2>
             <div class="fila">
-                <div class="col izq">
+                <div class="col">
                     <h3>EDUCACIÓN</h3>
-                        <div class="item-izq">
+                        <div class="intereses-card">
                             <h4>Ing. Civil</h4>
                             <span>Universidad Católica de Córdoba</span>
                             <span>2010-2016</span>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
                         </div>
-                        <div class="item-izq">
+                        <div class="intereses-card">
                             <h4>Bachiller en economía</h4>
                             <span>Colegio La Salle</span>
                             <span>1997-2009</span>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
                         </div>
                 </div>
-                <div class="col der">
+                <div class="col">
                     <h3>EXPERIENCIA</h3>
-                        <div class="item-der">
+                        <div class="intereses-card">
                             <h4>Ing. Civil Of. Técnica</h4>
                             <span>Alubry San Luis</span>
                             <span>2021-PRESENTE</span>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eaque ea eveniet at. Non fuga, repudiandae dignissimos laborum consequuntur asperiores ipsum neque! Earum recusandae sed aliquid ratione, voluptates rerum fugiat?</p>
                         </div>
-                        <div class="item-der">
+                        <div class="intereses-card">
                             <h4>Ing. Civil Of. Técnica</h4>
                             <span>MyT Consultora</span>
                             <span>2016-2021</span>
@@ -137,11 +165,108 @@
         </div>
 
     </section>
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-section">
+            <h2>PORTFOLIO</h2>
+            <div class="fila">
+                <div class="intereses-card">
+                    <img src="img/p1.jpg" alt="foto hospital">
+                    <div class="overlay">
+                        <h4>HOSPITAL</h4>
+                        <p><storng>Breve Rreseña obra</storng></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><storng>Resumen</storng></p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="intereses-card">
+                    <img src="img/p2.jpg" alt="foto estadio">
+                    <div class="overlay">
+                        <h4>ESTADIO</h4>
+                        <p><storng>Breve Rreseña obra</storng></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><storng>Resumen</storng></p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="intereses-card">
+                    <img src="img/p3.jpg" alt="foto viviendas">
+                    <div class="overlay">
+                        <h4>VIVIENDAS</h4>
+                        <p><storng>Breve Rreseña obra</storng></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><storng>Resumen</storng></p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="intereses-card">
+                    <img src="img/p4.jpg" alt="foto puentes">
+                    <div class="overlay">
+                        <h4>PUENTES</h4>
+                        <p><storng>Breve Rreseña obra</storng></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><storng>Resumen</storng></p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="intereses-card">
+                    <img src="img/p5.jpg" alt="foto muros sostenimiento">
+                    <div class="overlay">
+                        <h4>MUROS DE SOSTENIMIENTO</h4>
+                        <p><storng>Breve Rreseña obra</storng></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><storng>Resumen</storng></p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="intereses-card">
+                    <img src="img/p6.jpg" alt="fotos canales">
+                    <div class="overlay">
+                        <h4>CANALES</h4>
+                        <p><storng>Breve Rreseña obra</storng></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><storng>Resumen</storng></p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--CONTACTO-->
     <section id="contacto" class="contacto">
-        <h2>CONTACTO</h2>
-        <div class="" contacto-contenido>
-            <div class="fila">
+        <div class="contacto-section">
+            <h2>CONTACTO</h2>
+            <div class="contacto-col">
                  <p>
                     <input id="nombre" type="text" placeholder="Tu nombre">
                 </p>
@@ -158,11 +283,18 @@
                     <textarea id="mensaje" name="" id="" cols="30" rows="10" placeholder="Consulta"></textarea>
                 </p>
                 <p>
-                    <button>Enviar mensaje </button>
+                    <button type="button" id="boton">Enviar mensaje </button>
                 </p>
             </div>
         </div>
     </section>
+    <script src="scripts.js"></script>
 </body>
+<footer class="footer-cv">
+    <div class="logo">
+        <h4>CV-DIEGO PIEDRABUENA <h4>
+    </div>
+</footer>
+
 
 </html>
